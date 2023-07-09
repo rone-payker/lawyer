@@ -1,0 +1,405 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	font-size: 16px;
+	line-height: 1.7em;
+	font-family: 'Open Sans', sans-serif;
+
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Montserrat', sans-serif;
+}
+a{
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: none;
+
+}
+/* global css code for tittle/heding */
+
+.title{
+	width: 100%;
+	padding: 0px 0px 20px;
+}
+.title h1{
+	font-size: 52px;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+.title img{
+	margin: 0px 0px 5px;
+}
+/************/
+
+/*header section css code start here*/
+.header{
+	width: 100%;
+	padding: 10px 0px 15px;
+    background: #fff;
+}
+.header .navbar-nav .nav-item .nav-link{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: #28377e;
+    margin: 0px 0px 0px 25px;
+    transition: 1s;
+
+}
+.header .navbar-nav .nav-item .nav-link:hover{
+    color: #f05428;
+   
+}
+.header .navbar-nav .nav-item .nav-link:focus{
+    color: #f05428;
+   
+}
+/*header section css code end here*/
+
+/*slider css code start here*/
+.slider{
+	width: 100%;
+	padding: 80px 0px;
+	background: url("../images/slider.png") center top no-repeat;
+	background-size: cover;
+	text-align: center;
+}
+.inner-slider{
+	width: 100%;
+	padding: 90px 0px 0px;
+}
+.inner-slider h1{
+	font-size: 61px;
+    line-height: 1.3em;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #fff;
+}
+.arrow{
+	width: 100%;
+	padding: 125px 0px 0px;
+}
+.arrow .fa{
+	font-size: 60px;
+    color: #fff;
+
+}
+/*slider css code end here*/
+
+/*who-we-are css code start here*/
+.who-we-are{
+	width: 100%;
+	padding: 80px 0px;
+}
+.who-we-are .title {
+   padding: 45px 0px 0px;
+}
+.who-we-are .title h1{
+    color: #28377e;
+}
+.who-we-are p{
+	font-size: 16px;
+	line-height: 1.7em;
+    color: #bab9ba;
+}
+.who-we-are-img{
+	width: 100%;
+	text-align: center;
+}
+
+/*who-we-are css code end here*/
+
+/*what-we-do css code start here*/
+
+.what-we-do{
+	width: 100%;
+	padding: 80px 0px;
+	background: url("../images/sub.png") center top no-repeat;
+    background-size: cover;
+
+}
+.what-we-do .title{
+	width: 100%;
+	padding: 0px 0px 20px;
+	text-align: center;
+
+}
+.what-we-do .title h1{
+	font-size: 52px;
+	font-weight: 600;
+	text-transform: uppercase;
+	color: #28377e;
+}
+.what-we-do .card{
+	border-radius: 0px;
+	text-align: center;
+	margin: 49px -5px -5px;
+
+} 
+.what-we-do .card-img-overlay{
+
+} 
+.what-we-do .card-title{
+
+	font-size: 30px;
+	text-transform: uppercase;
+	position: absolute;
+	top: 50%;
+	left: 0px;
+	width: 100%;
+	color: #fff;
+
+} 
+.what-we-do .long-arrow{
+   position: absolute;
+    bottom: 20%;
+    left: 45%;
+	
+} 
+
+/*what-we-do css code end here*/
+
+
+/*our-atorny secction css code start here*/
+
+.our-atorny{
+	width: 100%;
+	padding: 80px 0px;
+	background: url("../images/bg.png") center top no-repeat;
+    background-size: cover;
+}
+.our-atorny .title{
+	padding: 90px 0px 0px;
+}
+.our-atorny h1{
+    font-size: 52px;
+	font-weight: 600;
+	text-transform: uppercase;
+	color: #fff;
+}
+.our-atorny p{
+	font-size: 16px;
+	line-height: 1.7em;
+    color: #929dcf;
+}
+.our-atorny .custom-link{
+	font-size: 16px;
+	font-weight: 600;
+	text-transform: uppercase;
+    color: #f2622c;
+    text-decoration: none;
+    transition: 1s;
+
+}
+.our-atorny .custom-link:hover{
+	
+    color: #fff;
+    
+}
+.our-atorny .custom-link:focus{
+	
+    color: #fff;
+    
+}
+.our-atorny .card{
+	border-radius: 0px;
+	text-align: left;
+	margin: 30px -5px -5px;
+
+} 
+.our-atorny .card-img{
+	border-radius: 0px;
+	
+
+} 
+.our-atorny .card-title{
+
+	font-size: 30px;
+	text-transform: uppercase;
+	position: absolute;
+	bottom: 20px;
+    left: 25px;
+	width: 80%;
+	color: #fff;
+
+} 
+/*our-atorny secction css code end here*/
+/*the-langugesecction css code end here*/
+.the-languge{
+	width: 100%;
+	padding: 80px 0px;
+}
+.the-languge .title{
+	text-align: center;
+	padding: 0px 0px 50px 0px;
+}
+.the-languge .title-spanis{
+
+}
+.the-languge h1{
+	font-size: 52px;
+	font-weight: 600;
+	text-transform: uppercase;
+	color: #28377e;
+}
+.the-languge h2{
+	font-size: 26px;
+	font-weight: 600;
+	text-transform: uppercase;
+	color: #28377e;
+}
+.the-languge p{
+	font-size: 16px;
+	line-height: 1.7em;
+    color: #bab9ba;
+}
+.the-languge .custom-link{
+	font-size: 16px;
+	font-weight: 600;
+	text-transform: uppercase;
+    color: #f2622c;
+    text-decoration: none;
+    transition: 1s;
+
+}
+.the-languge .custom-link:hover{
+    color: #000;
+    
+}
+.the-languge .custom-link:focus{
+	
+    color: #000;
+    
+}
+    
+/*the-languge secction css code end here*/
+
+
+
+/*contact-us section css code start here*/
+.contact-us{
+	width: 100%;
+	padding: 80px 0px;
+	background: url("../images/bg33.png") center top no-repeat;
+	background-size: cover;
+
+}
+.contact-us .title{
+	text-align: center;
+
+}
+.contact-us h1{
+	font-size: 52px;
+	font-weight: 600;
+	text-transform: uppercase;
+	color: #fff;
+
+}
+.contact-us .contact-from{
+	width: 50%;
+	margin: 50px auto;
+	text-align: center;
+	position: relative;
+	box-shadow: 0 10px 30px 0px auto;
+}
+.contact-us .contact-from .from-field{
+	position: relative;
+	margin: 20px 0px;
+
+}
+.contact-us .contact-from .input-text{
+	background: border-box;
+    display: block;
+    width: 100%;
+    height: 49px;
+    border-width: 0 0 2px 0;
+    border-color: #fff;
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 500;
+}
+.contact-us .contact-from .input-text:focus + .label, .contact-us .contact-from .input-text.not-empty + .label{
+	transform: translateY(-17px);
+}
+
+
+.contact-us .contact-from .input-text:focus{
+	outline: none;
+}
+.contact-us .contact-from .label{
+	position: absolute;
+	left: 20px;
+	bottom: 11px;
+	font-size: 18px;
+	 line-height: 26px;
+    font-weight: 500;
+    color: #fff;
+    cursor: text;
+    text-transform: capitalize;
+    transition: tranaform 0 2s ease-in-out;
+}
+.contact-us .contact-from .btn-warning{
+    font-weight: 600;
+    color: #fff;
+    line-height: 1.2em;
+    display: inline-block;
+    background-color: #f2622c;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 13px 59px 10px;
+    border-radius: 0px;
+    font-size: 19px;
+    transition: 1s;
+}
+.contact-us .contact-from .btn-warning:hover{
+     color: #5543ca;
+    
+}
+.contact-us .contact-from .btn-warning:focus{
+      color: #fff;
+    
+}
+
+/*contact-us section css code end here*/
+
+
+
+
+/* footer section css code start here */
+.footer{
+	width: 100%;
+	padding: 30px 0px 15px;
+	background: #0c1234;
+}
+.footer .copy-right{
+	font-size: 17px;
+    line-height: 1.2em;
+    font-weight: 400;
+    color: #4a5283;
+    text-align: center;
+
+	
+}
+.footer .social-icon{
+	 display: block;
+	 padding-left: 137px;
+    
+	
+}
+.footer .social-icon li{
+    list-style: none;
+    display: inline-block;
+    margin: 0px 15px 0px;
+}
+.footer .social-icon a{
+	font-size: 20px;
+    color: #fff;
+	
+}
+/* footer section css code end here */
+
